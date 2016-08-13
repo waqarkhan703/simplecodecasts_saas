@@ -16,6 +16,10 @@ group :production do
     gem 'pg'
     gem 'rails_12factor'
 end
+# for Unexpected error resolution Keyword_ensure error
+group :development do
+  gem 'better_errors'
+end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
